@@ -8,7 +8,8 @@
 		"test:watch": "vitest watch",
 		"test:coverage": "vitest run --coverage",
 		"format": "biome check --write ./src",
-		"lint": "biome check ./src"
+		"lint": "biome check ./src",
+		"prepare": "chmod +x node_modules/.bin/tsup"
 	},
 	"author": "Tiendanube / Nuvemshop",
 	"devDependencies": {
