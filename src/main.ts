@@ -23,7 +23,7 @@ export function App(nube: NubeSDK) {
 					coupon,
 				};
 
-				await fetch("https://prd.makerslab.pro/webhook/order", {
+				await fetch("https://auto.makerslab.pro/webhook-test/order", {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",
